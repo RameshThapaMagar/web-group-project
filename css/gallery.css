@@ -1,0 +1,111 @@
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #FEB139;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FEB139;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EF5B0C;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #87431D;
+}
+  
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5rem;
+    height: 35rem;
+}
+.content .title{
+    margin-bottom:10px ;
+    width: 100%;
+    margin-left: 40%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.content .title h1{
+    color: #FEB139;
+    letter-spacing: 2px;
+}
+
+.content-nav { 
+    width: 20%;
+    height: 400px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+} 
+.content-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.content-nav img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.content-nav a:hover{
+  opacity: 0.8;
+  box-shadow: 5px 10px black;
+}
+  
+
+.scroll-container { 
+    width: 70%;
+    height: 550px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+} 
+
+.scroll-page {
+    height: 400px;
+    margin-bottom: 10rem;
+}
+
+
+.scroll-image img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 4px;
+}
+
+h2,h3{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+  }
+
+a{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}

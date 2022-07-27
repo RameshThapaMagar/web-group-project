@@ -1,0 +1,291 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: #793c19;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+.top-bar{
+    background-color: #793c19;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+
+.top-bar .top-image {
+    width: 10%;
+    
+}
+.top-bar img{
+    width: 100%;
+
+}
+.top-bar .top-title {
+    letter-spacing: 4px;
+    width: 50%;
+    text-shadow: 3px 3px black;
+}
+.top-bar .top-title h1{
+    letter-spacing: 4px;
+    color: #FEB139;
+    text-shadow: 3px 3px black;
+}
+
+.top-bar .top-title span{
+    color: #87431D;
+}
+
+.container{
+    background-color: #793c19;
+    width:60rem;
+    height: 100%;
+}
+
+.nav{
+    background-color: #87431D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+.search-button{
+    margin-top: 10px;
+    width: 30%;
+}
+
+.search-button ::placeholder{
+    color: #EF5B0C;
+
+}
+
+.search-button form.search input[type=text] {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-size: 12px;
+    color: #EF5B0C;
+    float: left;
+    width: 70%;
+    height: 25px;
+    background: #793c19;
+    border: #793c19;
+    border-radius: 20px;
+    box-shadow: .5px 1px .5px black inset;
+  }
+
+  .search-button form.search button {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    width: 25%;
+    height: 25px;
+    padding: 5px;
+    margin-left: 5px;
+    background: #87431D;
+    color: #FEB139;
+    font-size: 12px;
+    border: #793c19;
+    cursor: pointer;
+    border-radius: 20px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1px;
+
+  }
+
+  .search-button form.search button:hover {
+    color: #EF5B0C;
+
+  }
+
+.navbar{
+    margin-bottom: 10px;
+    width: 65%;
+}
+
+.navbar ul{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    padding-left: 20px;
+    color: #FEB139;
+    text-decoration: none;
+    letter-spacing: 1px; 
+    text-shadow: 2px 2px black; 
+    font-weight: 800;
+    
+}
+
+.nav ul li a:hover{
+    color:#EF5B0C; 
+}
+.active{
+    color:#EF5B0C !important;
+}
+.nav hr{
+    width: 100%;
+    border-color: #FEB139;
+    
+}
+
+.home-image {
+    background-image: url("image/front.avif");
+    margin-top: 50px;
+}
+.home-image h1{
+    color: #fff;
+}
+
+
+.home-image img{
+    width: 100%;
+    margin-top: 20px;
+    /* height: 500px; */
+}
+
+.home-image .front{
+    width: 50%;
+    bottom: 500px;
+}
+
+.home-card{
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.home-card img{
+    width: 100%;
+    height: 200px;
+}
+
+.home-card img:hover{
+    width: 100%;
+    height: 200px;
+    opacity: 0.7;
+}
+
+.home-card .card{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 22%;
+}
+
+
+.home-card h2{
+    width: 100%;
+    color: #FEB139;
+}
+.home-card h3{
+    margin-top: 10px;
+    width: 100%;
+    color: #FEB139;
+}
+.home-card a{
+    margin-top: 5px;
+    width: 100%;
+    color: #EF5B0C;
+    text-decoration: none;
+}
+
+.home-card a:hover{
+    margin-top: 5px;
+    width: 100%;
+    color: red;
+    text-decoration: none;
+}
+.handicraft-video{
+    margin-top: 7rem;
+}
+
+.handicraft-video{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.handicraft-video h2{
+    margin-bottom: 10px;
+    width: 100%;
+    color: #FEB139;
+}
+
+
+.handicraft-video{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer{
+    background-color: #231955;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 5rem;
+}
+.footer p{
+    color: #FEB139;
+}
+
+
+p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+  }
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+}
+
+h2,h3{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    }
+
+a{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+  
+
+
+

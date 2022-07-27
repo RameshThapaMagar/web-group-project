@@ -1,0 +1,136 @@
+
+body{
+    background-color: #793c19;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+}
+.content .title{
+    margin-bottom:10px ;
+    width: 100%;
+}
+.content .title h1{
+    color: #FEB139;
+    letter-spacing: 2px;
+}
+.content-image{
+    width: 50%;
+}
+.content-image img{
+    width: 100%;
+}
+.description {
+    width: 40%;
+}
+.description h3{
+    color: #E6B325;
+    letter-spacing: 1px;
+}
+.description p{
+    color: #EF5B0C;
+    letter-spacing: 0.5px;
+}
+
+
+.go-back{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.go-back span {
+    content: "\2190";
+    width: 20%;
+    font-size: 70px;
+    color: #EF5B0C;
+  }
+
+
+.go-back span:hover {
+    color: #FEB139;
+  }
+
+  .go-back h3 {
+    width: 70%;
+    color: #EF5B0C;
+    margin-top: 22px;
+    margin-left: 10px;
+  }
+
+.go-back h3:hover {
+    color: #FEB139;
+  }
+
+p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+  }
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+}
+
+h2,h3{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    }
+
+a{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+  
+
+
+
+
+
+
+
+.navigation{
+    max-width: 80%;
+    padding:5rem 1.5rem;
+    display: block;
+    margin:auto;
+}
+.home-card-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding:0 8%;
+
+}
+.home-card-container .img-div,.home-card-container .card-content{
+    flex:50%;
+}
+.home-card-container .img-div img{
+    max-width: 500px;
+    height: 350px;
+   
+    border-radius: 20px;
+}
+/* .home-card-container .img-div img{
+    width:100%;
+} */
+@media (min-width:458px) and (max-width:768px){
+
+.home-card-container{
+    flex-direction: column;
+}
+
+.go-back-1{color:red;}
+}
+
+
+
+
+
+
